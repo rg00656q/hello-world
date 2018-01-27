@@ -1,0 +1,18 @@
+#Méthode pour github
+
+git clone "url github"
+
+git branch "nom de notre branche"    //  Ou git checkout -b "nom de notre branche"
+git checkout "nom de notre branche"  //
+
+
+travail perso sur le(s) fichier(s)
+
+git add * // git add <fichier>
+
+git commit -m "mot du commit"
+
+#Si travail fini
+git checkout "branche précédente"
+git merge "nom de notre branche"
+git push
